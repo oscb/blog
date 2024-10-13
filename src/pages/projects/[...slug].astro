@@ -42,14 +42,14 @@ const { Content, headings } = await project.render();
         {project.data.title}
       </h1>
       {
-        (project.data.demoURL || project.data.repoURL) && (
+        (project.data.siteURL || project.data.repoURL) && (
           <nav class="flex gap-1">
-            {project.data.demoURL && (
-              <Link href={project.data.demoURL} external>
-                demo
+            {project.data.siteURL && (
+              <Link href={project.data.siteURL} external>
+                site
               </Link>
             )}
-            {project.data.demoURL && project.data.repoURL && <span>/</span>}
+            {project.data.siteURL && project.data.repoURL && <span>/</span>}
             {project.data.repoURL && (
               <Link href={project.data.repoURL} external>
                 repo

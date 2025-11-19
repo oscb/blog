@@ -33,7 +33,11 @@ Want to discuss some book? App ideas? Why the 1967 Mustang is peak Mustang?
 
 I'm very introverted, but I really appreciate when people reach out
 
-[Reach me out in Mastodon](https://hachyderm.io/@oscb)
+[Mastodon](https://hachyderm.io/@oscb)
+
+[Bluesky](https://bsky.app/profile/ungrateful.computer)
+
+[oscar@ungrateful.computer](mailto:oscar@ungrateful.computer)
 
 ## Work
 

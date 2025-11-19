@@ -1,9 +1,9 @@
 import type { Metadata, Site, Socials } from "@types";
 
 export const SITE: Site = {
-  TITLE: "O.B.Dience",
+  TITLE: "Ungrateful Computer",
   DESCRIPTION: "Swift, Typescript, book and game ramblings.",
-  EMAIL: "oscar.b@icloud.com",
+  EMAIL: "oscar@ungrateful.computer",
   NUM_POSTS_ON_HOMEPAGE: 5,
   NUM_PROJECTS_ON_HOMEPAGE: 3,
 };
@@ -28,6 +28,10 @@ export const SOCIALS: Socials = [
   {
     NAME: "Mastodon",
     HREF: "https://hachyderm.io/@oscb",
+  },
+  {
+    NAME: "Bluesky",
+    HREF: "https://bsky.app/profile/ungrateful.computer",
   },
   {
     NAME: "GitHub",

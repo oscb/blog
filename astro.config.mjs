@@ -1,13 +1,12 @@
-import tailwind from "@astrojs/tailwind";
 import { defineConfig } from "astro/config";
-
-import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
+import mdx from "@astrojs/mdx";
 import pagefind from "astro-pagefind";
+import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://obdience.com",
+  site: "https://ungrateful.computer",
   integrations: [tailwind(), sitemap(), mdx(), pagefind()],
   markdown: {
     shikiConfig: {

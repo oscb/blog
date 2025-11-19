@@ -25,20 +25,8 @@ export const PROJECTS: Metadata = {
 };
 
 export const SOCIALS: Socials = [
-  {
-    NAME: "Mastodon",
-    HREF: "https://hachyderm.io/@oscb",
-  },
-  {
-    NAME: "Bluesky",
-    HREF: "https://bsky.app/profile/ungrateful.computer",
-  },
-  {
-    NAME: "GitHub",
-    HREF: "https://github.com/oscb",
-  },
-  {
-    NAME: "LinkedIn",
-    HREF: "https://www.linkedin.com/in/oscarbazaldua/",
-  },
+  { NAME: "Mastodon", HREF: "https://hachyderm.io/@oscb" },
+  { NAME: "Bluesky", HREF: "https://bsky.app/profile/ungrateful.computer" },
+  { NAME: "GitHub", HREF: "https://github.com/oscb" },
+  { NAME: "LinkedIn", HREF: "https://www.linkedin.com/in/oscarbazaldua/" },
 ];

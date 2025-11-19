@@ -4,6 +4,7 @@ export const SITE: Site = {
   TITLE: "Ungrateful Computer",
   DESCRIPTION: "Swift, Typescript, book and game ramblings.",
   EMAIL: "oscar@ungrateful.computer",
+  AUTHOR: "Oscar Bazaldua",
   NUM_POSTS_ON_HOMEPAGE: 5,
   NUM_PROJECTS_ON_HOMEPAGE: 3,
 };

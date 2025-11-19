@@ -7,7 +7,10 @@ import tailwindcss from "@tailwindcss/vite";
 // https://astro.build/config
 export default defineConfig({
   site: "https://ungrateful.computer",
-  integrations: [tailwind(), sitemap(), mdx(), pagefind()],
+  vite: {
+    plugins: [tailwindcss()],
+  },
+  integrations: [sitemap(), mdx(), pagefind()],
   markdown: {
     shikiConfig: {
       theme: "css-variables",

@@ -141,8 +141,8 @@
 
   header {
     @apply fixed left-0 right-0 top-0 z-50 py-6;
-    @apply bg-ctp-base/75;
-    @apply saturate-200 backdrop-blur-xs;
+    @apply bg-ctp-base/90;
+    @apply backdrop-blur-sm;
   }
 
   main {

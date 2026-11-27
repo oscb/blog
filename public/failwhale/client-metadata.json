@@ -1,0 +1,12 @@
+{
+  "client_id": "https://ungrateful.computer/failwhale/client-metadata.json",
+  "client_name": "FailWhale",
+  "client_uri": "https://ungrateful.computer",
+  "application_type": "native",
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "redirect_uris": ["computer.ungrateful:/oauth/callback"],
+  "scope": "atproto transition:generic transition:chat.bsky",
+  "token_endpoint_auth_method": "none",
+  "dpop_bound_access_tokens": true
+}
